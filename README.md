@@ -1,16 +1,14 @@
 # Uptime Checker
 
-Uptime Checker Application using Node.js
+Uptime checker using Node.js
 
-## Start application:
+## App:
 
-Start application on local server using:
+Clone repository and start application on your local server using:
 ```bash
 node index
 ```
 
-## Check it out:
-
-Use application at your [localhost](http://localhost:3000).
+Check it out at your [localhost](http://localhost:3000).
 
 ### Enjoy ;-)
