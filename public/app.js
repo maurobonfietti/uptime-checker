@@ -1,6 +1,5 @@
 /*
  * Frontend Logic for application
- *
  */
 
 // Container for frontend application
@@ -12,7 +11,7 @@ app.config = {
 };
 
 // AJAX Client (for RESTful API)
-app.client = {}
+app.client = {};
 
 // Interface for making API calls
 app.client.request = function (headers, path, method, queryStringObject, payload, callback) {
