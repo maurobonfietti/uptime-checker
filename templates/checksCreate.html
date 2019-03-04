@@ -17,6 +17,15 @@
             <input type="text" name="url" placeholder="mywebsite.com/my/path" />
         </div>
         <div class="inputWrapper">
+            <div class="inputLabel">HTTP Method</div>
+            <select name="httpmethod">
+                <option value="post">POST</option>
+                <option value="get" selected>GET</option>
+                <option value="put">PUT</option>
+                <option value="delete">DELETE</option>
+            </select>
+        </div>
+        <div class="inputWrapper">
             <div class="inputLabel">Success Codes (HTTP codes that should represent "up")</div>
             <div class="checkboxGroup">
                 <input type="checkbox" class="multiselect intval" name="successCodes" value="200" checked>200
@@ -29,15 +38,6 @@
                 <input type="checkbox" class="multiselect intval" name="successCodes" value="406">406
                 <input type="checkbox" class="multiselect intval" name="successCodes" value="500">500
             </div>
-        </div>
-        <div class="inputWrapper">
-            <div class="inputLabel">HTTP Method</div>
-            <select name="httpmethod">
-                <option value="post">POST</option>
-                <option value="get" selected>GET</option>
-                <option value="put">PUT</option>
-                <option value="delete">DELETE</option>
-            </select>
         </div>
         <div class="inputWrapper" style="display:none;">
             <div class="inputLabel">Timeout</div>
