@@ -28,6 +28,7 @@ _app.countTests = function () {
             }
         }
     }
+
     return counter;
 };
 
