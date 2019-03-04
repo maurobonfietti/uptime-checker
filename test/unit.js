@@ -1,6 +1,5 @@
 /*
  * Unit Tests
- *
  */
 
 // Dependencies
@@ -26,7 +25,7 @@ unit['logs.truncate should not throw if the logId does not exist, should callbac
         logs.truncate('I do not exist', function (err) {
             assert.ok(err);
             done();
-        })
+        });
     }, TypeError);
 };
 
