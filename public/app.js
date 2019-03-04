@@ -427,7 +427,7 @@ app.loadChecksListPage = function () {
                             }
                         });
                     });
-                    if (allChecks.length < 5) {
+                    if (allChecks.length < 20) {
                         // Show the createCheck CTA
                         document.getElementById("createCheckCTA").style.display = 'block';
                     }
