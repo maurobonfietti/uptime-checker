@@ -421,6 +421,9 @@ app.loadChecksListPage = function () {
                                 var state = typeof (responsePayload.state) === 'string' ? responsePayload.state : 'unknown';
                                 td3.innerHTML = state;
                                 td4.innerHTML = '<a href="/checks/edit?id=' + responsePayload.id + '">View / Edit / Delete</a>';
+                                td0.style.textAlign = 'center';
+                                td3.style.textAlign = 'center';
+                                td4.style.textAlign = 'center';
                             } else {
                                 console.log("Error trying to load check ID: ", checkId);
                             }
