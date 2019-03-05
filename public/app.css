@@ -52,6 +52,7 @@ body,p,h1,h2,h3,h4,h5,h6,div,span,header,footer,img,a,a:hover,a:active,a:visited
     text-transform: uppercase;
     font-weight: 900 !important;
     font-size: 11px;
+    color: #214478;
 }
 
 .header ul li.loggedIn{
@@ -78,8 +79,11 @@ body.loggedIn .header ul li.loggedOut{
 
 .content {
     margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 40px;
     width: 1000px;
-    margin: 150px auto;
+    /*margin: 150px auto;*/
 }
 
 .footer{
