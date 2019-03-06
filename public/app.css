@@ -1,6 +1,5 @@
 /*
  * CSS Styles for Application
- *
  */
 
 /* Resets */
@@ -9,7 +8,7 @@ body,p,h1,h2,h3,h4,h5,h6,div,span,header,footer,img,a,a:hover,a:active,a:visited
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: normal;
     text-decoration: none;
     color: #1a1a1a;
@@ -53,6 +52,7 @@ body,p,h1,h2,h3,h4,h5,h6,div,span,header,footer,img,a,a:hover,a:active,a:visited
     text-transform: uppercase;
     font-weight: 900 !important;
     font-size: 11px;
+    color: #214478;
 }
 
 .header ul li.loggedIn{
@@ -79,13 +79,16 @@ body.loggedIn .header ul li.loggedOut{
 
 .content {
     margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 40px;
     width: 1000px;
-    margin: 150px auto;
+    /*margin: 150px auto;*/
 }
 
 .footer{
     width: 100%;
-    background-color: #1a1a1a;
+    background-color: #214478;
     padding: 50px 0;
     text-align: center;
     border-width: 1px 0 0 0;

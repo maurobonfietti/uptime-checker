@@ -1,6 +1,5 @@
 /*
  * API Tests
- *
  */
 
 // Dependencies
@@ -39,7 +38,7 @@ api['app.init should start without throwing'] = function (done) {
     assert.doesNotThrow(function () {
         app.init(function (err) {
             done();
-        })
+        });
     }, TypeError);
 };
 

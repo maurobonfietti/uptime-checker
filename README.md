@@ -6,7 +6,7 @@ Uptime checker using Node.js
 
 Clone repository and start application on your local server using:
 ```bash
-node index
+node index.js
 ```
 
 Check it out at your [localhost](http://localhost:3000).

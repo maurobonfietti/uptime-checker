@@ -1,6 +1,5 @@
 /*
  * Primary file for API
- *
  */
 
 // Dependencies
@@ -13,7 +12,6 @@ var app = {};
 
 // Init function
 app.init = function (callback) {
-
     // Start the server
     server.init();
 
@@ -25,7 +23,6 @@ app.init = function (callback) {
         cli.init();
         callback();
     }, 50);
-
 };
 
 // Self invoking only if required directly
